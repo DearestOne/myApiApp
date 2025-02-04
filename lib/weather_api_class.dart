@@ -19,3 +19,5 @@ class WeatherData{
       : cityName = json['data']['city']['name'],
         other = json['data']?['iaqi'] ?? {};
 }
+
+// homework2
