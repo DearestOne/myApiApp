@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:myapiapp/weather_api_class.dart';
-import 'package:myapiapp/weather_country.dart';
+import 'package:myapiapp/week4/weather_api_class.dart';
+import 'package:myapiapp/week4/weather_country.dart';
 // https://api.waqi.info/feed/here/?token=db72103f674a25dee3d6e942e90c4325df4a0b72
 
 dynamic getAQIColor(int aqi) {

@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:myapiapp/weather.dart';
+import 'package:myapiapp/week5/product_main.dart';
+import 'package:firebase_core/firebase_core.dart';
 // homework2
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -12,7 +15,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Flutter Demo',
-      home: SumnationWeather(),
+      // home: FireStoreDemo(),
+      home: Product(),
     );
   }
 }
