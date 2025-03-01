@@ -144,8 +144,7 @@ class _Apitest2State extends State<Product> {
                             context: context,
                             builder: (BuildContext context) => Dialog(
                                   child: Padding(
-                                    padding: const EdgeInsets.all(30.0),
-                                    child: Column(
+                                    padding: const EdgeInsets.all(30.0),                                    child: Column(
                                       mainAxisSize: MainAxisSize.min,
                                       mainAxisAlignment:
                                           MainAxisAlignment.center,
